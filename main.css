@@ -1,0 +1,120 @@
+/* I'm clearly unable to grasp the concept of flex in a form. 
+I can't even look at this any more. I grasp concept when images or colored boxes are used as an example.
+I think.  I'm not getting it with words/form for some reason.  I've changed this code so many times, I don't even remember
+what code got me closer to the end result.   */
+
+body {
+ align-content: center;
+ font-family: Arial;
+}
+
+form {
+  color: white;
+  background-color: #0986d4;
+  font-size: 10px;
+  width: 1050px;
+  height: 800px;
+  display: flex;
+  margin: 5px;
+
+}
+.item1 {
+  height: 250px;
+  width: 250px;
+  margin-left: 20px;
+  
+}
+
+.item2 {
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    
+    
+  }
+
+.item3 {
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+
+  }
+
+form {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+
+}
+
+.item1 {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.item2 {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.item3 {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+select {
+    border: 2px solid white;
+    background-color: #0986d4;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    height:35px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+input {
+    border: 2px solid white;
+    background-color: #0986d4;
+    color: white;
+    font-size: 14px;
+    background-color: #0986d4;
+    border-color: white;
+    width: 300px;
+    height: 35px;
+
+}
+
+input:focus {
+	outline: none;
+	border-color: #2B6998;    
+}
+
+input::placeholder {
+    font-style: italic;
+    color: rgb(32, 32, 32);
+}
+
+
+#bio {
+    height: 200px;
+}
+
+#affiliations {
+    height: 200px;
+
+}
+
+#comments {
+    height: 200px;
+}
